@@ -1,0 +1,7 @@
+--> faz o .exe com o nome projetoExec
+gcc -Wall -g -o projetoExec projeto.c -lpthread -fopenmp
+--> para executar o .exe, executar
+./projetoExec
+--> pode também executar o comando para rodar o daemon
+gcc projeto.c -o projetoDaemon -lpthread -fopenmp
+--> para que o projeto daemon funcione, é necessario criar alterar o caminho do arquivo entrada.in para a entrada das matrizes visto que o daemon opera com caminhos absolutos.
