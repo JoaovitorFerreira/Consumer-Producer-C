@@ -1,6 +1,10 @@
 # Consumer-Producer-C
 A Consumer Producer project with C, for my computer systems master's classes.
 
+This program simulates a "producer-consumer" relationship in a Operational System.
+
+In this case, it reads 50 files and then start 3 operations with the matrix inside them.
+Initially it multiplies two matrix (inside the file), then sum the collumns, then the result rows, returning the final value.
 
 we have two versions of the same program:
 
